@@ -1,12 +1,10 @@
 import React from 'react';
-import './App.css';
+import { Intro } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Carlo Bagnoli's website
-      </header>
+      <Intro />
     </div>
   );
 }
